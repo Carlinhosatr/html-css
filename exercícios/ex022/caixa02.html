@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags (semânticas)</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+        body{
+            font-family: 'Quicksand', Helvetica, Arial;
+            background-color: rgba(196, 179, 180, 0.863);
+            margin: 0px;
+        }
+
+        header {
+            background-color: rgba(164, 188, 194, 0.733);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        header > h1 {
+            text-align: center;
+
+        }
+
+        nav {
+            background-color: rgba(187, 171, 183, 0.747);
+            padding: 3px;
+            box-shadow: 1px 2px 12px black;   /*SOMBRA*/
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        main {
+            background-color: rgba(160, 190, 196, 0.822);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 28px 28px 3px 3px; /* CONFIGURAR O TIPO DE BORDA*/
+            box-shadow: 5px 4px 14px rgba(0, 0, 0, 0.685);
+        }
+
+        article {
+            background-color: rgba(129, 144, 155, 0.74);
+            padding: 2px;
+            border-radius: 28px 28px 3px 3px;
+        }
+
+        article > aside {
+            background-color: rgba(135, 147, 148, 0.753);
+        }
+
+        footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin: 0px;
+        padding: 1px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>  <!--cabeçalho-->
+         <h1>Meu site</h1>
+         <nav>
+             <a href="#">link</a>
+             <a href="#">link</a>
+             <a href="#">link</a>
+             <a href="#">link</a>
+             <a href="#">link</a>
+         </nav>
+    </header>
+
+    <main> <!-- Conteúdo principal-->
+            <section>
+
+            </section>
+            <section>
+                <article> <!--artigo-->
+                    <h2>Notícias sobre o Brasil</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure incidunt ad fugiat consequuntur corporis? Aperiam eveniet nihil esse. Aliquid saepe voluptate magni ipsa fugit possimus facilis neque voluptates, ullam cum.</p>
+                    <aside>
+                        <p>Artigo escrito por José da Silva</p>
+                    </aside>
+                </article>
+            </section>
+            
+    </main>
+
+    <footer> <!---->
+            <p>Desenvolvido por mim.</p>
+    </footer>
+</body>
+</html>

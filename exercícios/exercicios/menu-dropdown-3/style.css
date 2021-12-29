@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    position: relative;
+    background: gray;
+    margin: 0;
+    padding: 0;
+    
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    display: block;  /**/
+    
+}
+
+ul li:hover {
+    background: lightgrey;
+}
+
+ul ul {
+    position: absolute;
+    display: none;
+}
+
+ul ul li {
+    display: block;
+
+}
+
+ul li:hover ul {     /* QUANDO EU PASSAR O MOUSE POR CIMA DO LI DO UL, QUERO QUE MOSTRE O UL*/
+    display: block;
+}

@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,400;1,500;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+header {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    background-color: #F2F0FE;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 20px;
+    
+    
+}
+
+.logo {
+    cursor: pointer;
+}
+
+nav {
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #F2F0FE;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    box-shadow: 0px 2px 41px rgba(0, 0, 0, 0.171);
+    border-radius: 5px;
+    /*border-right: 2px solid #DDD6FD;*/
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F2F0FE;
+    margin: 10px;
+
+}
+
+nav ul li {
+    list-style: none;
+    
+}
+
+nav ul li a {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    margin: 0px 0px;
+    padding: 8px 40px;
+    /*background-color: rgba(255, 255, 255, 0);*/
+    /*border-bottom: 2px solid #d4d4db;*/
+    border-radius: 69px 10px;
+    text-decoration: none;
+    color: blueviolet;
+    
+}
+
+nav ul li a:hover {
+    
+    color: #FF6600;
+    text-decoration: underline;
+    background-color: #ff66001a;
+    transition: 0.7ms;
+    font-size: 120%;  /* DEFINE O QUANTO A LETRA VAI CRESCER QUANDO PASSAR O MOUSE EM CIMA*/
+    transition: 2s;
+}
+
+
+
+
+
+body {
+    background-color: #F2F0FE;
+}
+
+main {
+    margin-top: 10px;
+
+}
+
+main h1 {
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+.CardCollection {        /* CONFIGURAÇÃO PARA ORGANIZAÇÃO DE COLUNAS*/
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 222px 226px 221px 221px;
+    grid-column-gap: 64px;
+    grid-row-gap: 40px;
+    
+}
+
+
+.Card {
+    /*cursor: pointer;*/
+    border: 2px solid rgb(5, 5, 5);
+    margin: 5px;
+    padding: 15px;
+    font-size: 1.1em;
+    text-align: center;
+    /*font-weight: 600;*/
+    border-radius: 5px;
+    height: 276px;
+    width: 220px;
+
+}
+
+.Card:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.37);
+}
+
+.Card img {
+    
+    height: 166px;
+    width: 217px;
+    max-height: 162px;
+    min-width: 162px;
+    margin: 0;
+    padding: 0;
+    border: 2px solid rgb(5, 5, 5);
+
+}
+
+.Card h1 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    font-size: 20px;
+    color: blueviolet;
+    padding: 5px;
+    margin: 5px;
+}
+
+.Card p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    color: blueviolet;
+    margin: 5px;
+}
+
+.Card button {
+    cursor: pointer;
+}
+
+
+
+.Card button a {
+    text-decoration: none;
+}
+
+
+.externo::after {
+    content: '\1F517';
+
+}
+
+
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 0px;
+
+}

@@ -1,0 +1,255 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/** {
+    margin: 0;
+    padding: 0;
+} */
+
+.cabecalho {
+    border-bottom: 4px #dddd solid;
+    height: 125px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cabecalho h1 {
+    font-family: Arial, sans-serif;
+    font-size: 30pt;
+    color: rgba(83, 82, 82, 0.867);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6) ;
+}
+.cabecalho h2 {
+    font-size: 15pt;
+    color: rgba(158, 154, 154, 0.867);
+}
+.cabecalho #icone {
+    position: absolute;
+    left: 1265px;
+    top: 71px;
+}
+
+.container-logo {
+    margin-top: 30px;
+}
+
+hgroup h1 {
+    margin: 30px 0px 0px 0px;
+}
+
+hgroup h2 {
+    margin: 10px 80px 1px 0px;
+}
+
+img#icone {
+    width: 180px;
+}
+nav ul {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    left: 690px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 12px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    background-color:  rgba(250, 235, 215, 0.363);
+    box-shadow: 1px 1px 4px black;
+    color: black;
+    font-weight: 600;
+    border-radius: 0px 10px;
+    font-family: serif, Arial;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+    background-color: rgba(235, 198, 129, 0.4);
+}
+body {
+    background-color: #dddd;
+}
+.interface {
+    
+    width: 970px;
+    margin: 0px auto;  /* Configura a parter externa*/
+    padding: 40px;    /* Configura a parter interna*/
+    background-color: #fff;
+    box-shadow: 0px 0px 10px black;
+}
+.interface nav h1 {
+    display: none;
+}
+figure.foto-legenda {
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+    display: inline-block;
+    position: relative; 
+}
+figure.foto-legenda figcaption {
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 1s;
+}
+figure.foto-legenda:hover figcaption {
+    opacity: 1; 
+}
+
+/* links */
+
+a {
+    color: rgb(131, 130, 130);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* LINKS*/
+
+/* ÁREA DA SECTION */
+
+.noticia-principal h2 {
+    font-size: 12pt;
+    color: rgba(97, 94, 94, 0.867);
+    background-color: rgba(218, 216, 216, 0.747);
+    padding: 5px 0px 0px 10px;
+    margin: 10px 0px;
+}
+
+.cabecalho-artigo h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20pt;
+    color: rgba(138, 137, 137, 0.867);
+    margin: 0px auto;
+    
+} 
+
+.cabecalho-artigo h2 {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(121, 119, 119);
+    background-color: white;
+}
+
+.cabecalho-artigo h3 {
+    font-size: 12px;
+    color: rgba(97, 94, 94, 0.867);
+}
+
+h3.direita {
+    font-weight: 800;
+    text-align: right;
+
+}
+
+section.corpo {
+    width: 543px;
+    border-right: 4px solid #dddd;
+    float: left; /* Para usar o FLOAT é NECESSÁRIO que os objetos estejam CONFIGURADOS COMO BLOCKS (DISPLAY BLOCK) */
+    padding-right: 17px;
+
+}
+
+section.corpo p {
+    text-align: justify;
+    text-indent: 30px;
+
+}
+
+table.tabelaspec {
+    border: 1px solid black;
+    border-spacing: 0px; /* para configurar o espaço entra as bordas das células*/
+    margin: 0px auto; /* para centralzizar a tabela*/
+}
+
+.tabelaspec caption {
+    color: #757575;
+    font-size: 14pt;
+    font-weight: bold;
+
+}
+
+.tabelaspec caption span {
+    display: block;
+    float: right;
+    color: black;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+
+table.tabelaspec td {
+    border: 1px solid black;
+    padding: 10px;
+    vertical-align: middle;
+    text-align: center;   
+}
+
+
+td.ce {
+    color: white;
+    background-color: rgba(82, 80, 80, 0.867);
+    vertical-align: top;
+    font-weight: bold;
+}
+
+td.cd {
+    
+    background-color: #dddd;
+
+}
+
+
+aside.lateral {
+    width: 365px;
+    float: right;
+    background-color: #ddd;
+    padding: 11px;
+    margin-top: 13px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+aside.lateral h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20pt;
+    color: rgba(138, 137, 137, 0.867);
+}
+
+aside.lateral h2 {
+    background-color: #606060;
+    font-size: 15pt;
+    color: white;
+    padding: 10px;
+}
+
+aside.lateral p {
+    text-align: justify;
+    text-indent: 30px;
+    
+}
+footer.rodape {
+    clear: both;    /* usado para limpar a configuração dos dois lados, fazendo o conteúdo ser mostrado fora da divisão (section x aside).*/
+    border-top: 4px #dddd solid; 
+}
+footer.rodape p {
+    text-align: center;
+    padding-top: 30px;
+}

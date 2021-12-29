@@ -1,0 +1,53 @@
+
+
+.dp-menu ul {
+    list-style-type: none;
+    padding: 15px;
+    
+    background-color: rgba(41, 38, 38, 0.911);
+    position: absolute;
+    
+    
+}
+
+.dp-menu ul li{
+    display: inline-block;
+    position: relative;
+    
+}
+
+.dp-menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.dp-menu ul li a:hover {
+    background-color: blue;
+}
+
+.dp-menu ul ul {
+    display: none;
+    /*position: absolute;*/
+
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+
+}
+
+.dp-menu ul ul {
+    width: auto;
+
+    
+}
+
+.dp-menu ul ul a {
+    padding: 15px;
+
+    display: block;
+    
+    
+    
+}

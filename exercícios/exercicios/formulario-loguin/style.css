@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #2a2f328c;
+    /*font-family: 'Open Sans', sans-serif;*/
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+.center {
+    width: 430px;
+    margin: 130px auto;
+    position: relative;
+}
+
+.header {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    background: #2A2F32;
+    color: #f4f6f7;
+    /*border: 1px solid black;*/
+    padding: 25px 0 15px 25px;
+    
+}
+
+.center form {
+    position: absolute;
+    background: #2A2F32;
+    width: 100%;
+    padding: 30px 10px 30px 30px;
+    box-sizing: border-box;
+    /* border:  1px solid #6d1c7d; */
+    border-radius: 0 0 5px;
+}
+
+form input {
+    height: 50px;
+    width: 90%;
+    padding: 0 10px;
+    border-radius: 3px;
+    border: 1px solid silver;
+    font-size: 11px;   
+}
+
+form input[type="password"] {  /* espaçamento entre o loguin e a senha*/ 
+    margin-top: 20px;
+}
+
+form i {
+    position: absolute;
+    font-size: 1.2em;
+    color: gray;
+    margin: 15px 0 0 -45px;   /* para alinhar os icones */
+}
+
+i.fa-lock {
+    margin-top: 35px;   /* para alinhar os icones */
+}
+
+form input[type="submit"] {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 130px;
+    cursor: pointer;
+    line-height: 45px;
+    border-radius: 5px;
+    color: white;
+    background: #2DA94F;
+    border: 0 solid #2DA94F;
+    outline: none;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+form input[type="submit"]:hover {
+    background: #2da94e91;
+    transition: 0.5s;
+}
+form a {
+     text-decoration: none;
+     font-size: 18px;
+     color:#2DA94F;
+     padding-left: 20px;
+ }
+
+/*.footer a {
+    margin: 0;
+    padding: 0;
+} */
+
+.footer a {
+    margin-right: -15px;
+    margin-left: 25px;
+}
+
+.footer a i {
+    /*margin: 35px 0px 0 15px;*
+}

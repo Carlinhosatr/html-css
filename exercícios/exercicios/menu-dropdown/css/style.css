@@ -1,0 +1,10 @@
+:root {
+    --cor-fundo : rgba(32, 44, 34, 0.37);
+    --cor-hover : rgba(76, 105, 81, 0.555);
+    --cor-primaria : rgba(219, 236, 222, 0.561);
+
+}
+
+.dp-menu {
+    list-style-type: none;
+}

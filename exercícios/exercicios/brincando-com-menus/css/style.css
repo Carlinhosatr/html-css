@@ -1,0 +1,36 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu-h ul{
+margin: 0px 0px;
+list-style: none;
+background-color: rgb(27, 25, 25);
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block; /* pra que seja possível clicar no link além da letra*/
+    transition: 0.1s;
+}
+
+#menu-h ul li a:hover {
+    color: bisque;
+    background-color: rgb(42, 41, 41);
+}
+
+#menu-h ul li:last-child a { /* para mexer apenas no último flho */
+    float: right;
+    background-color: blue;
+}
+
+
+

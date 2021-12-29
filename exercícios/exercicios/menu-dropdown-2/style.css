@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    position: relative;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    
+}
+
+ul li {
+    display: inline-block;
+}
+ul li span {
+    padding: 15px;
+    display: block;
+    color: white;
+    cursor: pointer;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+}
+
+ul li span::after {
+    content: " ^";
+ 
+    border-style: solid;
+    border-width: 0 1.5px 1.5px 0;
+    content: '';
+    display: inline-block;
+    height: 6px;
+    position: relative;
+    transform: rotate(45deg);
+    width: 6px;
+    color: rgba(0,0,0,.3);
+    margin: 8px 0 0 6px;
+    vertical-align: top;
+    will-change: transform;
+    transition: all .3s ease-out;
+}
+
+
+
+ul li:hover {
+    background: lightgray;
+}
+
+ul ul {
+    position: absolute;
+    width: 151px;
+    display: none;
+    
+}
+
+ul ul li {
+    display: block;
+    background: gray;
+}
+
+ul li:hover ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+}

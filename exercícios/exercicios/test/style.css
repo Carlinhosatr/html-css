@@ -1,0 +1,129 @@
+@charset "UTF-8" ;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;1,100;1,200;1,300;1,400&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+}
+        /*
+        #232530;
+        #0E0E10;
+        #515151;
+        */
+       
+        header {
+            background-color: #232530;
+            padding-top: 40px;
+            height: 100px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 30px 10%;     
+        }
+
+        header > img {
+            max-width: 50px;
+            min-height: 40px;
+            margin: 0px 0px 0px 27px;
+
+        }
+
+        .logo {
+            cursor: pointer;
+            margin-right: auto;
+        }
+
+        header > h1 {   
+            margin-bottom: 0px;
+            font-size: 20px;
+            color: white;
+            margin: auto;
+            
+            
+        }
+        /*  button.bton1 {
+            background-color: #232530;  /  #232530 /
+            border: none;
+            cursor: pointer;
+            font-size: 20px;
+            color: #FFBC00;
+            margin-right: 20px;
+        }    */
+     
+
+        /* button.bton2 {
+            background-color: #FFBC00;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 20px;
+            padding: 9px 25px;
+            transition: 2s;
+        }   */
+
+        /*  button.bton2:hover {
+            background-color: rgba(255, 187, 0, 0.527);
+            transition: 0.1s;
+        }   */
+
+        nav {
+            background-color: #232530;
+            padding: 10px;
+            text-align: center; 
+        }
+        nav > ul > li {
+            list-style: none;
+            display: inline-block;
+            padding: 0px 20px;
+
+        } 
+        nav > ul > li > a {
+            padding: 10px;
+            color: white;
+            font-weight: 600;
+            font-size: 1.5em;
+            text-decoration: none;
+            transition: 2s;
+        }
+
+        nav > ul > li > a:hover {
+            color: #0088a9;
+            transition: 0.1s;
+        }
+
+        body {
+            background-color: #0E0E10;
+            color: #515151;
+            margin: 0;
+            padding: 0;
+            font-size: .875rem;
+            font-family: 'Montserrat', Arial;   
+        }     
+        div.CardCollection-0-2-2187 {  /* CONTAINER  DOS PRODUTOS*/ 
+            gap: 1rem;
+            /*width: 100%;*/
+            /*margin: 0 auto;*/
+            display: grid;
+            justify-content: center;
+            /*grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));*/
+           grid-template-columns: 222px 226px 221px 221px;
+           grid-column-gap: 37px;
+           grid-row-gap: 5px;
+        }
+        div.ModelCard-0-2-274 {  /* ITEM  */
+            background-color: rgba(174, 146, 199, 0.527);
+            border: 2px solid rgb(5, 5, 5);
+            box-shadow: 6px 2px 25px rgba(0, 0, 0, 0.212);
+            margin: 10px;
+            padding: 10px;
+            font-size: 1.1em;
+            text-align: center;
+            font-weight: 600;
+            border-radius: 5px;
+            height: 319px;
+            width: 217px;
+        }
+
+        footer {
+            text-align: center;
+            color: #515151;
+        }

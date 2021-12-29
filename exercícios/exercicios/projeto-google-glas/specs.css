@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+.interface {
+    width: 1000px;
+    margin: auto;
+}
+
+.frame-spec {
+    width: 690px;
+    height: 380px;
+    border: none;
+    overflow: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+article h1 {
+    font-size: 17pt;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    margin: 0;
+}
+
+article h2 {
+    font-size: 15pt;
+    color: #888888;
+    margin: 0;
+}
+
+article {
+    margin-bottom: 800px;
+}
+
+.fleximg {
+    display: flex;
+}

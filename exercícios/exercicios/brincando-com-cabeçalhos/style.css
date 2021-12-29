@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper { /* CONTAINER DA IMAGEM */
+    background: url(imagens/primeira-imagem-prin.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.4)
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+    padding: 0px 8px 0px 8px;
+    display: inline-block;
+    line-height: 80px; /* Altura da linha */
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 13px; /* no hover deve-se colocar o mesmo padding e/margin da âncora*/
+
+}
+.navbar ul li a:hover {
+    background: red;
+    border-radius: 5px;
+    padding: 15px 13px;   /* no hover deve-se colocar o mesmo padding e/margin da âncora*/
+    transition: 0.3s;
+}
+.logo {
+    width: 195px;
+    height: auto;
+    padding: 18px 80px 18px 39px;
+    cursor: pointer;
+}
+
+.wrapper .center {  /* centralizando o conteúdo*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+}
+
+.center h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+
+.center h2 {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 800px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.center .buttons {
+    margin: 30px 280px;
+}
+
+.buttons button {
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffb3b3;
+    background-color: red;
+    border-radius: 1px solid #cc0000;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+.buttons .btn{
+    margin-left: 25px;
+}
+
+.buttons button:hover {
+    background: #cc0000;
+    
+}
