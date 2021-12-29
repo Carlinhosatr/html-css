@@ -54,16 +54,12 @@ header > h1 {
 }
 
 header > p {
-    color: white;
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
     color: white;
     max-width: 500px;
     margin: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: 30px;
-
+    
 }
 
 nav {
